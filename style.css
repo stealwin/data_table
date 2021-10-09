@@ -1,0 +1,78 @@
+
+.sorting_wrap{
+text-align: center;
+padding-bottom: 20px;
+}
+select{
+    width: 200px;
+}
+
+table{
+    width: 70%;
+    margin: auto;
+}
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+table th, td{
+    padding: 5px;
+    text-align: center; 
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 20%;
+}
+table th{
+    padding: 10px;
+    cursor: pointer;
+}
+.pages_wrap{
+    padding-top:15px;
+    text-align: center;
+}
+table.pages{
+    border: 1px solid rgb(83, 82, 82);
+    color: rgb(50, 134, 243);
+    width: 200px;
+    margin-right:357px;
+}
+table.pages th{
+    text-align: center; 
+    border: 1px solid rgb(100, 97, 97);
+}
+
+
+
+.pages_wrap th:hover, .pages_wrap th.active{
+    cursor: pointer;
+    background-color: aqua;
+}
+.pages_wrap > div{
+    display: inline-block;
+}
+.info_wrap{
+    padding-top: 30px;
+    text-align: center;
+
+}
+.info{
+    padding: 21px;
+    width: 554px;
+    height: 200px;
+    line-height: 15px;
+    resize: none;
+}
+.hide{
+    visibility: hidden;
+}
+
+.search_name{
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    margin: 0 540px 0 0;
+}
+.select_state{
+    width: 150px;
+    height: 40px;
+}

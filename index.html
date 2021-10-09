@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Table</title>
+</head>
+
+<body>
+    <div class="sorting_wrap">
+        <input type="search" class="search_name" placeholder="Search by name" value="">
+        
+        <select name="" id="state" class="select_state" >
+            <option class="default_option" selected >Filter by state</option>
+        </select>
+
+    </div>
+    <table class="data">
+        <thead>
+            <tr>
+                <th class="id" data-type="number">id</th>
+                <th class="first_name">First Name</th>
+                <th class="last_name">Last Name</th>
+                <th class="email">E-mail</th>
+                <th class="phone" data-type="number">Phone</th>
+                <th class="state">State</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="pages_wrap">
+        <table class="pages">
+            <thead>
+                <tr class="pages_count">
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <div class="info_wrap">
+        <textarea  class="info" readonly></textarea>
+    </div>
+    <script src="js-scripts/script.js"></script>
+</body>
+
+</html>
